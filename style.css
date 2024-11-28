@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+     }
+  
+  .anim {
+    
+    background-image: url("anonymous-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animacia 5s linear alternate infinite;
+    width: 100vh;
+    height: 50vh;
+  }
+  
+  @keyframes animacia {
+    from {
+      background-position: 0 center;
+    }
+    to {
+        background-position: 50vw center;
+      }
+   
+  }
+  
